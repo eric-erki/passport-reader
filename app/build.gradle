@@ -18,6 +18,9 @@ android {
     dexOptions {
         javaMaxHeapSize "4g"
     }
+    lintOptions {
+        warning 'InvalidPackage'
+    }
 }
 
 dependencies {
